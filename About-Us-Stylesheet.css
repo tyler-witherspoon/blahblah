@@ -1,0 +1,208 @@
+body {
+  position: relative; 
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  margin-right: 100px; 
+  height: -2000px; 
+}
+.about-us-heading {
+  position: relative; 
+  color: darkgrey;
+  font-size: 40px; 
+}
+
+.about-us-desc {
+  position: relative; 
+  color: white; 
+  font-size: 180%;
+}
+.about-us-picture-1 {
+  position:relative;
+  bottom: 1250px;
+  left: 50px; 
+  margin-right: 800px; 
+  height: 720px; 
+}
+.we-mentor-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 85%;  
+}
+.we-mentor-desc {
+  position: relative;
+  left: 45%;
+  bottom: 100px; 
+  margin-right: 850px; 
+}
+.we-empower-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 85%; 
+} 
+.we-empower-desc {
+  position: relative;
+  bottom: 100px; 
+  left: 45%;
+  margin-right: 45%; 
+}
+.we-build-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 85%;
+}
+.we-build-desc {
+  position: relative;
+  left: 45%;
+  bottom: 100px; 
+  margin-right: 45%;
+}
+.we-inspire-heading {
+  position: relative;
+  bottom: 100px; 
+  left: 85%; 
+}
+.we-inspire-desc {
+  position: relative;
+  left: 45%;
+  bottom: 100px; 
+  margin-right: 45%;
+}
+.page-title {
+  margin-right: 1580px;  
+  min-width: 305px; 
+}
+
+.social-media-links {
+  position: relative; 
+  left: 60%; 
+}
+
+.sml-desc-and-links {
+  position: relative; 
+  bottom: 800px; 
+  left: 0%; 
+}
+
+.sml-desc {
+  position: relative; 
+  left: 62%; 
+}
+
+@media screen and (max-width: 1700px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+  }
+  
+  .navbar:nth-child(7) {
+    margin-right: -20px;  
+  }
+  
+  .we-mentor-desc {
+    margin-right: 46%;  
+  }
+  
+  .about-us-heading {
+    left: 80%; 
+  } 
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    position: relative; 
+    font-size: 20px;  
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    position: relative; 
+  }
+  .navbar:nth-child(7) {
+    margin-right: -100px; 
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {  
+      font-size: 100%; 
+    }
+  
+    .about-us-heading {
+      left: 75%;  
+  }
+  
+    .about-us-picture-1 {
+      width: 35%; 
+      height: auto; 
+  }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+      position: relative; 
+      font-size: 12px;
+      margin-right: -1px; 
+    }
+    body {
+      margin: 0px;  
+      overflow: scroll; 
+    }
+    .sml-desc-and-links {
+      bottom: 400px; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    width: 105%; 
+    display: block; 
+    font-size: 300%; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-bottom: 50px; 
+    left: 0px; 
+    bottom: 25px; 
+  }
+  
+  .navbar:active {
+    bottom: 0px;  
+  }
+  .page-title {
+     font-size: 500%;
+     left: 15px; 
+  }
+  .about-us-heading {
+     text-align: center; 
+     left: 5%; 
+     top: 5px; 
+  }
+  
+  .about-us-desc {
+     text-align: center; 
+     left: 5%; 
+     margin: 1%; 
+     top: 5px; 
+  }
+  
+  .about-us-picture-1 {
+     top: 100px; 
+     left: 1px; 
+     width: 115%; 
+  }
+  
+  .sml-desc-and-links {
+     top: 200px; 
+  }
+}

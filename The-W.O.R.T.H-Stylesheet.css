@@ -1,0 +1,62 @@
+h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+.page-title {
+	color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px; 
+  position: relative; 
+  font-weight: normal; 
+  border-top: solid 7px #ae0000;
+  border-bottom: solid 7px #ae0000;  
+}
+.navbar {
+  color: black; 
+  border: white solid; 
+  left: 44.65%; 
+  background-color: white; 
+  font-size: 175%; 
+  position: relative; 
+  font-family: 'Oswald', sans-serif;
+  bottom: 180px; 
+  margin: 1%; 
+  border-radius: 12px;
+  padding: 10px; 
+}
+body {
+  background-color: #1c1c1c; 
+  font-family: 'Oswald', sans-serif; 
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  max-height: 1%; 
+}
+
+p {
+  color: #969ba3; 
+  padding: 2px; 
+  font-family: 'Oswald', sans-serif; 
+  position: relative; 
+  bottom: 125px;
+  font-size: 20px; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+.navbar:active {
+  position: relative; 
+  bottom: 170px;  
+  background-color: #ae0000; 
+  border-color: #ae0000; 
+}
+
+.navbar:hover {
+  background-color: #ae0000;
+  border-color: #ae0000; 
+}
+
+.sml-desc {
+  position: relative; 
+  color: white; 
+}

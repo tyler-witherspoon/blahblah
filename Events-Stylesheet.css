@@ -1,0 +1,136 @@
+.page-title {
+  margin-right: 1675px; 
+  margin-bottom: 10px;
+  min-width: 225px; 
+}
+
+.navbar {
+  bottom: 129px;  
+}
+
+.navbar:active {
+  bottom: 120px; 
+}
+
+.social-media-links {
+  position: relative;  
+}
+
+.upcoming-events-heading {
+  position: relative; 
+  bottom: 65px; 
+  margin-right: 0px; 
+  font-size: 250px; 
+  color: white; 
+}
+
+.events-desc {
+  position: relative; 
+  top: -15px;
+  font-size: 80px; 
+  color: #969ba3; 
+}
+
+.events-heading {
+  color: white; 
+  font-size: 100px; 
+} 
+
+@media screen and (max-width: 1700px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+  }
+  
+  .navbar:nth-child(7) {
+    margin-right: -20px;  
+  }
+  
+  .upcoming-events-heading {
+    font-size: 1000%; 
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    position: relative; 
+    font-size: 20px;   
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    position: relative; 
+  }
+  .navbar:nth-child(7) {
+    margin-right: -100px; 
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {  
+      font-size: 100%; 
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+      position: relative; 
+      font-size: 12px;
+      margin-right: -1px; 
+    }
+    body {
+      margin: 0px;  
+      overflow: scroll; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin: 15px; 
+    left: 500px; 
+  }
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    width: 105%; 
+    display: block; 
+    font-size: 300%; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-bottom: 50px; 
+    left: 0px; 
+    top: 50px; 
+  }
+  .page-title {
+     font-size: 500%;
+     left: 15px;
+  }
+  
+  .upcoming-events-heading {
+    text-align: center;  
+    font-size: 100px; 
+    top: 10px; 
+  }
+  
+  .events-desc {
+    text-align: center;  
+    font-size: 50px; 
+  }
+  
+  .events-heading {
+    text-align: center; 
+    font-size: 65px; 
+  } 
+}
+
+

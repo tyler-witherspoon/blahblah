@@ -1,0 +1,43 @@
+h1 {
+	color: #ae0000;
+  font-family: 'Oswald', sans-serif; 
+  font-size: 90px; 
+  bottom: 60px; 
+  position: relative; 
+}
+.navbar {
+  color: black; 
+  border: 2px #ae0000 solid; 
+  left: 575px; 
+  background-color: #ae0000; 
+  font-size: 30px; 
+  position: relative; 
+  font-family: 'Oswald', sans-serif;
+  bottom: 200px; 
+  margin: 15px; 
+  border-radius: 12px;
+  padding: 10px; 
+}
+body {
+  background-color: #1c1c1c; 
+}
+
+p {
+  color: #969ba3; 
+  padding: 2px; 
+  font-family: 'Oswald', sans-serif; 
+  position: relative; 
+  bottom: 125px;
+  font-size: 20px; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    right: 450px; 
+  }
+}
+

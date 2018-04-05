@@ -1,0 +1,189 @@
+.page-title {
+  margin-right: 1430px; 
+  min-width: 450px; 
+}
+.organizations-desc {
+  position: relative;  
+  font-size: 200%; 
+  bottom: 100px; 
+  color: #969ba3;
+}
+
+.list-of-orgs {
+ 	font-family: 'Oswald', sans-serif; 
+  color: white;
+  font-size: 40px; 
+  position: relative;  
+}
+
+.orgs-pic-2 {
+  transform: rotate(90deg);
+}
+.orgs-desc {
+  position: relative; 
+  max-width: 50%;
+  min-width: 45%;
+  font-size: 27px;
+  bottom: 30px; 
+}
+
+.social-media-links {
+  position: relative; 
+}
+
+.orgs-pics {
+  position: relative; 
+  height: auto; 
+  max-width: 950px;
+  width: 60%;
+}
+
+.orgs-title-1 {
+  position: relative; 
+  bottom: 50px; 
+}
+
+.orgs-desc-1 {
+  position: relative; 
+  bottom: 100px; 
+}
+
+.orgs-title-2 {
+  position: relative; 
+  top: 55px; 
+} 
+
+.orgs-desc-2 {
+  position: relative; 
+  top: 5px;  
+}
+
+.orgs-title-3 {
+  position: relative; 
+  bottom: 50px; 
+}
+
+.orgs-desc-3 {
+  position: relative; 
+  bottom: 100px; 
+}
+
+.orgs-title-4 {
+  position: relative; 
+  bottom: 50px;  
+}
+
+.orgs-desc-4 {
+  position: relative; 
+  bottom: 100px; 
+}
+
+.orgs-title-5 {
+  position: relative; 
+  bottom: 50px; 
+}
+
+.orgs-desc-5 {
+  position: relative; 
+  bottom: 100px; 
+}
+@media screen and (max-width: 1700px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+  }
+  
+  .navbar:nth-child(7) {
+    margin-right: -20px;  
+  }
+  
+  .upcoming-events-heading {
+    font-size: 1000%; 
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    position: relative; 
+    font-size: 20px;  
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    position: relative; 
+  }
+  .navbar:nth-child(7) {
+    margin-right: -100px; 
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {  
+      font-size: 100%; 
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+      position: relative; 
+      font-size: 12px;
+      margin-right: -1px; 
+    }
+    body {
+      margin: 0px;  
+      overflow: scroll; 
+    }
+    .sml-desc-and-links {
+      bottom: 400px; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    width: 105%; 
+    display: block; 
+    font-size: 300%; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-bottom: 50px; 
+    bottom: 25px;  
+    left: 0px; 
+  }
+  
+  .navbar:active {
+    bottom: 0px;  
+  }
+  .page-title {
+     font-size: 65px;
+     min-width: 355px; 
+     left: 10px; 
+  }
+  
+  .organizations-desc {
+    text-align: center; 
+    bottom: 50px; 
+  }
+  
+  .orgs-title {
+  }
+  
+  .orgs-desc {
+    text-align: center;  
+  }
+  
+  .orgs-pics {
+    width: 300px; 
+  } 
+}

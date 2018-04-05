@@ -1,0 +1,179 @@
+.page-title {
+  margin-right: 1525px;  
+  min-width: 380px; 
+}
+
+h2 {
+  color: white;  
+}
+.social-media-links {
+  position: relative; 
+}
+
+.contact-info-desc-1 {
+  position: relative; 
+  bottom: 75px;  
+  font-size: 30px; 
+}
+
+.contact-info {
+  position: relative; 
+  bottom: 50px; 
+}
+
+.navbar {
+  margin: 1.25%;  
+  bottom: 176.5px; 
+  left: 835px; 
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    position: relative; 
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    padding: 40px 0 60px;
+    bottom: 50px; 
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+  margin: 50px 0;
+}
+form {
+    margin-bottom: 60px;
+}
+/* Form Fields -------------------- */
+input, textarea {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em; 
+}
+
+.navbar {
+  position: relative; 
+  margin-right: 14px; 
+  margin-top: 15px; 
+}
+
+@media screen and (max-width: 1700px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px;  
+  }
+  
+  .navbar:nth-child(7) {
+    margin-right: -20px;  
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    position: relative; 
+    font-size: 20px;  
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    position: relative; 
+  }
+  .navbar:nth-child(7) {
+    margin-right: -100px; 
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {  
+      font-size: 100%; 
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+      position: relative; 
+      font-size: 12px;
+      margin-right: -1px; 
+    }
+    body {
+      margin: 0px;  
+      overflow: scroll; 
+    }
+    .sml-desc-and-links {
+      bottom: 400px; 
+      left: -17%; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin: 15px; 
+    left: 500px; 
+  }
+  
+  .navbar:active {
+    bottom: 0px;  
+  }
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    width: 105%; 
+    display: block; 
+    font-size: 300%; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-bottom: 50px; 
+    left: 0px; 
+    bottom: 25px; 
+  }
+  .page-title {
+     font-size: 500%;
+     left: 15px; 
+     min-width: 345px; 
+  }
+  
+  .contact-us-form {
+     width: 115%;  
+  }
+  
+  .contact-info-desc-1 {
+    text-align: center; 
+    left: 5%; 
+  }
+  
+  .contact-info {
+    text-align: center; 
+    left: 5%;  
+  }
+  
+  .form-desc {
+    position: relative; 
+    text-align: center;  
+    left: 5%; 
+  }
+}

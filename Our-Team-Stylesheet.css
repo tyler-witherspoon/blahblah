@@ -1,0 +1,117 @@
+.page-title {
+  margin-right: 1550px; 
+  min-width: 325px; 
+}
+
+.social-media-links {
+  position: relative; 
+}
+
+.team-member-info-heading {
+  font-size: 70px; 
+  color: white; 
+}
+.team-member-info {
+  position: relative; 
+  top: 5px; 
+  font-size: 50px;
+}
+@media screen and (max-width: 1700px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+  }
+  
+  .navbar:nth-child(7) {
+    margin-right: -20px;  
+  }
+  
+  .upcoming-events-heading {
+    font-size: 1000%; 
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    position: relative; 
+    font-size: 20px;  
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    position: relative; 
+  }
+  .navbar:nth-child(7) {
+    margin-right: -100px; 
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {  
+      font-size: 100%; 
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+      position: relative; 
+      font-size: 12px;
+      margin-right: -1px; 
+    }
+    body {
+      margin: 0px;  
+      overflow: scroll; 
+    }
+    .sml-desc-and-links {
+      bottom: 400px; 
+      left: -17%; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin: 15px; 
+    left: 500px; 
+  }
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    width: 105%; 
+    display: block; 
+    font-size: 300%; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-bottom: 50px; 
+    left: 0px; 
+    bottom: 25px; 
+  }
+  
+  .navbar:active {
+    bottom: 0px;  
+  }
+  .page-title {
+     font-size: 500%;
+     left: 15px; 
+  }
+  
+  .team-member-info-heading {
+    position: relative; 
+    text-align: center;  
+    left: 5%; 
+  }
+  
+  .team-member-info {
+    text-align: center;  
+    left: 5%; 
+  }
+}
